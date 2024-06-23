@@ -1,6 +1,6 @@
 class MoneyMachine:
 
-    CURRENCY = "$"
+    CURRENCY = "R"
 
     COIN_VALUES = {
         "quarters": 0.25,
