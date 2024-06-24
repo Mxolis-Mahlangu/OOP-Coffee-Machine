@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class MoneyMachine:
 
     CURRENCY = "$"
@@ -38,17 +37,18 @@ class MoneyMachine:
             print("Sorry that's not enough money. Money refunded.")
             self.money_received = 0
             return False
-=======
+
 class MoneyMachine:
 
     CURRENCY = "R"
 
-    COIN_VALUES = {
-        "quarters": 0.25,
-        "dimes": 0.10,
-        "nickles": 0.05,
-        "pennies": 0.01
+    COIN_VALUES= {
+    "R 5": 5.00,
+    "R_2": 2.00,
+    "R 1": 1.00,
+    "50 cents": 0.50,
     }
+
 
     def __init__(self):
         self.profit = 0
@@ -78,4 +78,3 @@ class MoneyMachine:
             print("Sorry that's not enough money. Money refunded.")
             self.money_received = 0
             return False
->>>>>>> origin/testing-branch
